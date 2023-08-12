@@ -1,4 +1,4 @@
-<mxfile modified="2023-08-12T00:58:02.320Z" host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="xFAf5v7MrHWJ_gTOsEVF" version="21.6.8" type="github">
+<mxfile modified="2023-08-12T01:16:19.322Z" host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="k3cJ9BsdHEUU0wkyV0ri" version="21.6.8" type="github">
   <diagram id="f106602c-feb2-e66a-4537-3a34d633f6aa" name="Page-1">
     <mxGraphModel dx="5751" dy="2749" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="583" background="none" math="0" shadow="0">
       <root>
@@ -247,11 +247,6 @@
             <Array as="points">
               <mxPoint x="676" y="2636" />
             </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="nccsJ3PGcIFxA-UzMd-O-912" value="&lt;font face=&quot;Courier New&quot;&gt;&lt;span style=&quot;font-size: 27px;&quot;&gt;&lt;b&gt;&lt;i&gt;Pre Cleaned Raw Data&lt;/i&gt;&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="nccsJ3PGcIFxA-UzMd-O-911">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1294" y="916" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="nccsJ3PGcIFxA-UzMd-O-952" value="" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#000000;" vertex="1" parent="1">
