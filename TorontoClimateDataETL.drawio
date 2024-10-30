@@ -104,7 +104,7 @@
           <mxGeometry x="932.1800000000001" y="22.18" width="230.72" height="130" as="geometry" />
         </mxCell>
         <mxCell id="bziAgnSBWIQfF0Atd982-826" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#505050;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.users.csv_file;" vertex="1" parent="1">
-          <mxGeometry x="421.84" y="720" width="150.93" height="110" as="geometry" />
+          <mxGeometry x="421.84" y="720" width="138.16" height="90" as="geometry" />
         </mxCell>
         <mxCell id="mD2tvF8siUTnj8HDTEP3-1116" value="" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[1,1,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];rounded=1;absoluteArcSize=1;arcSize=2;html=1;strokeColor=none;gradientColor=none;shadow=0;dashed=0;fontSize=12;fontColor=#9E9E9E;align=left;verticalAlign=top;spacing=10;spacingTop=-4;whiteSpace=wrap;fillColor=#808080;" parent="1" vertex="1">
           <mxGeometry x="890" y="193" width="260" height="90" as="geometry" />
