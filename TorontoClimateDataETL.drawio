@@ -31,19 +31,19 @@
         </mxCell>
 
         <!-- Arrows for Data Flow -->
-        <mxCell id="arrow1" edge="1" source="DataSource" target="Extract" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;html=1;">
+        <mxCell id="arrow1" edge="1" source="DataSource" target="Extract" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;" >
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
 
-        <mxCell id="arrow2" edge="1" source="Extract" target="DataFolder" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;html=1;">
+        <mxCell id="arrow2" edge="1" source="Extract" target="DataFolder" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
 
-        <mxCell id="arrow3" edge="1" source="DataFolder" target="TransformLoad" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;html=1;">
+        <mxCell id="arrow3" edge="1" source="DataFolder" target="TransformLoad" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
 
-        <mxCell id="arrow4" edge="1" source="TransformLoad" target="Output" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;html=1;">
+        <mxCell id="arrow4" edge="1" source="TransformLoad" target="Output" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
 
