@@ -1,15 +1,52 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36" version="24.8.3">
-  <diagram name="Page-1" id="G-SOy_LUXYp8hmFqZdvU">
-    <mxGraphModel dx="3248" dy="3120" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+<mxfile host="app.diagrams.net">
+  <diagram name="Data Flow Diagram">
+    <mxGraphModel dx="1133" dy="726" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="-qf_1-mMAcOqW0T944Gw-1" value="&#xa;  &#xa;    &#xa;      &#xa;        &#xa;        &#xa;&#xa;        &#xa;        &#xa;          &#xa;        &#xa;&#xa;        &#xa;        &#xa;          &#xa;        &#xa;&#xa;        &#xa;        &#xa;          &#xa;        &#xa;&#xa;        &#xa;        &#xa;          &#xa;        &#xa;&#xa;        &#xa;        &#xa;          &#xa;        &#xa;&#xa;        &#xa;        &#xa;          &#xa;        &#xa;&#xa;        &#xa;          &#xa;        &#xa;&#xa;        &#xa;          &#xa;        &#xa;&#xa;        &#xa;          &#xa;        &#xa;&#xa;      &#xa;    &#xa;  &#xa;" style="text;whiteSpace=wrap;html=1;rotation=90;" vertex="1" parent="1">
-          <mxGeometry width="500" height="770" as="geometry" />
+
+        <!-- Data Source -->
+        <mxCell id="DataSource" value="Climate Data Website" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#D9EAD3;strokeColor=#6AA84F;" vertex="1" parent="1">
+          <mxGeometry x="100" y="100" width="160" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="-qf_1-mMAcOqW0T944Gw-2" value="&#xa;  &#xa;    &#xa;      &#xa;        &#xa;        &#xa;&#xa;        &#xa;        &#xa;          &#xa;        &#xa;&#xa;        &#xa;        &#xa;          &#xa;        &#xa;&#xa;        &#xa;        &#xa;          &#xa;        &#xa;&#xa;        &#xa;        &#xa;          &#xa;        &#xa;&#xa;        &#xa;        &#xa;          &#xa;        &#xa;&#xa;        &#xa;        &#xa;          &#xa;        &#xa;&#xa;        &#xa;          &#xa;        &#xa;&#xa;        &#xa;          &#xa;        &#xa;&#xa;        &#xa;          &#xa;        &#xa;&#xa;      &#xa;    &#xa;  &#xa;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry width="780" height="770" as="geometry" />
+
+        <!-- Extract -->
+        <mxCell id="Extract" value="Bash Script (Extract)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF2CC;strokeColor=#E69138;" vertex="1" parent="1">
+          <mxGeometry x="300" y="100" width="160" height="60" as="geometry" />
         </mxCell>
+
+        <!-- Data Folder -->
+        <mxCell id="DataFolder" value="Data Folder (/data)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#C9DAF8;strokeColor=#3C78D8;" vertex="1" parent="1">
+          <mxGeometry x="500" y="100" width="160" height="60" as="geometry" />
+        </mxCell>
+
+        <!-- Transform & Load -->
+        <mxCell id="TransformLoad" value="Python Script (Transform & Load)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F4CCCC;strokeColor=#CC4125;" vertex="1" parent="1">
+          <mxGeometry x="300" y="250" width="160" height="60" as="geometry" />
+        </mxCell>
+
+        <!-- Output -->
+        <mxCell id="Output" value="Output Folder (output/all_years.csv)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EAD1DC;strokeColor=#A64D79;" vertex="1" parent="1">
+          <mxGeometry x="500" y="250" width="160" height="60" as="geometry" />
+        </mxCell>
+
+        <!-- Arrows for Data Flow -->
+        <mxCell id="arrow1" edge="1" source="DataSource" target="Extract" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;html=1;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <mxCell id="arrow2" edge="1" source="Extract" target="DataFolder" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;html=1;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <mxCell id="arrow3" edge="1" source="DataFolder" target="TransformLoad" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;html=1;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <mxCell id="arrow4" edge="1" source="TransformLoad" target="Output" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;html=1;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
       </root>
     </mxGraphModel>
   </diagram>
