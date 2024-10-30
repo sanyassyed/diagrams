@@ -5,19 +5,19 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="mD2tvF8siUTnj8HDTEP3-1160" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=10;strokeColor=#4D4D4D;opacity=50;" parent="1" vertex="1">
-          <mxGeometry x="-450" y="-390" width="1780" height="1420" as="geometry" />
+          <mxGeometry x="-450" y="-390" width="1780" height="1370" as="geometry" />
         </mxCell>
         <mxCell id="mD2tvF8siUTnj8HDTEP3-1165" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#2B2B2B;sketch=1;curveFitting=1;jiggle=2;strokeColor=none;opacity=40;" parent="1" vertex="1">
-          <mxGeometry x="-380" y="21" width="230" height="610" as="geometry" />
+          <mxGeometry x="-400" y="30" width="360" height="610" as="geometry" />
         </mxCell>
         <mxCell id="mD2tvF8siUTnj8HDTEP3-1157" value="" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;fillColor=#2B2B2B;strokeColor=none;opacity=40;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
-          <mxGeometry x="-160" y="-360" width="630" height="110" as="geometry" />
+          <mxGeometry x="99" y="-330" width="630" height="110" as="geometry" />
         </mxCell>
         <mxCell id="14" value="" style="fillColor=#2B2B2B;strokeColor=none;shadow=0;gradientColor=none;fontSize=14;align=left;spacing=10;fontColor=#717171;9E9E9E;verticalAlign=top;spacingTop=-4;fontStyle=0;spacingLeft=40;html=1;container=0;rounded=1;arcSize=5;sketch=1;curveFitting=1;jiggle=2;opacity=50;" parent="1" vertex="1">
           <mxGeometry x="10" y="16" width="1170" height="874" as="geometry" />
         </mxCell>
         <mxCell id="818" value="&lt;font color=&quot;#4d4d4d&quot; face=&quot;Tahoma&quot; style=&quot;font-size: 24px;&quot;&gt;&lt;b&gt;Toronto Climate Data ELT Pipeline&lt;/b&gt;&lt;/font&gt;" style="fillColor=#FFFFFF;strokeColor=none;shadow=1;gradientColor=none;fontSize=14;align=left;spacingLeft=50;fontColor=#ffffff;html=1;glass=0;opacity=80;" parent="1" vertex="1">
-          <mxGeometry x="-133" y="-350" width="580" height="80" as="geometry" />
+          <mxGeometry x="126" y="-320" width="580" height="80" as="geometry" />
         </mxCell>
         <mxCell id="HJ5TVS9seApkcSMgQpAe-1005" value="" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[1,1,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];rounded=1;absoluteArcSize=1;arcSize=2;html=1;strokeColor=none;gradientColor=none;shadow=0;dashed=0;fontSize=12;fontColor=#9E9E9E;align=left;verticalAlign=top;spacing=10;spacingTop=-4;whiteSpace=wrap;fillColor=#F6F6F6;container=0;" parent="1" vertex="1">
           <mxGeometry x="19.99" y="90" width="740.01" height="730" as="geometry" />
@@ -65,21 +65,21 @@
           <mxGeometry x="150" y="108.21000000000001" width="220" height="65.03" as="geometry" />
         </mxCell>
         <mxCell id="mD2tvF8siUTnj8HDTEP3-1173" value="" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=none;" parent="1" vertex="1">
-          <mxGeometry x="-373.5" y="101" width="220" height="74" as="geometry" />
+          <mxGeometry x="-390" y="69" width="340" height="115" as="geometry" />
         </mxCell>
-        <mxCell id="mD2tvF8siUTnj8HDTEP3-1166" value="&lt;font color=&quot;#4d4d4d&quot; face=&quot;Lucida Console&quot; style=&quot;font-size: 24px;&quot;&gt;&lt;b style=&quot;&quot;&gt;Toronto Climate&lt;/b&gt;&lt;/font&gt;&lt;div&gt;&lt;font color=&quot;#4d4d4d&quot; face=&quot;Lucida Console&quot; style=&quot;font-size: 24px;&quot;&gt;&lt;b style=&quot;&quot;&gt;Data&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="-390" y="105.00000000000003" width="250" height="70" as="geometry" />
+        <mxCell id="mD2tvF8siUTnj8HDTEP3-1166" value="&lt;font style=&quot;font-size: 24px;&quot; face=&quot;Lucida Console&quot; color=&quot;#4d4d4d&quot;&gt;&lt;b style=&quot;&quot;&gt;Toronto Climate&lt;/b&gt;&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 24px;&quot; face=&quot;Lucida Console&quot; color=&quot;#4d4d4d&quot;&gt;&lt;b style=&quot;&quot;&gt;Data&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial; font-size: 24px;&quot;&gt;&lt;font face=&quot;Lucida Console&quot;&gt;climate.weather.gc.ca&lt;/font&gt;&lt;/span&gt;&lt;b style=&quot;font-size: 24px; color: rgb(77, 77, 77); font-family: &amp;quot;Lucida Console&amp;quot;; background-color: initial;&quot;&gt;&amp;nbsp;&lt;/b&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="-390" y="76.50000000000003" width="340" height="100" as="geometry" />
         </mxCell>
         <mxCell id="mD2tvF8siUTnj8HDTEP3-1174" value="" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=none;" parent="1" vertex="1">
-          <mxGeometry x="-372.5" y="384" width="215" height="187" as="geometry" />
+          <mxGeometry x="-322.5" y="393" width="215" height="187" as="geometry" />
         </mxCell>
         <mxCell id="mD2tvF8siUTnj8HDTEP3-1167" value="&lt;font color=&quot;#4d4d4d&quot; face=&quot;Lucida Console&quot; style=&quot;font-size: 24px;&quot;&gt;&lt;b style=&quot;&quot;&gt;Separate&lt;/b&gt;&lt;/font&gt;&lt;div&gt;&lt;font color=&quot;#4d4d4d&quot; face=&quot;Lucida Console&quot; style=&quot;font-size: 24px;&quot;&gt;&lt;b style=&quot;&quot;&gt;CSV&#39;s for&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#4d4d4d&quot; face=&quot;Lucida Console&quot; style=&quot;font-size: 24px;&quot;&gt;&lt;b style=&quot;&quot;&gt;each year&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="-345" y="426" width="160" height="100" as="geometry" />
+          <mxGeometry x="-295" y="435" width="160" height="100" as="geometry" />
         </mxCell>
         <mxCell id="HJ5TVS9seApkcSMgQpAe-1033" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;elbow=vertical;html=1;labelBackgroundColor=none;startFill=1;startSize=4;endArrow=blockThin;endFill=1;endSize=4;jettySize=auto;orthogonalLoop=1;strokeColor=#4D4D4D;strokeWidth=2;fontSize=12;fontColor=#000000;align=left;dashed=0;fillColor=#FFFFFF;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" target="mD2tvF8siUTnj8HDTEP3-1021" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points" />
-            <mxPoint x="-150" y="260" as="sourcePoint" />
+            <mxPoint x="-40" y="262" as="sourcePoint" />
             <mxPoint x="187.28999999999996" y="260.86882352941194" as="targetPoint" />
           </mxGeometry>
         </mxCell>
@@ -89,10 +89,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="bziAgnSBWIQfF0Atd982-818" value="" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.azure_website;pointerEvents=1;" vertex="1" parent="1">
-          <mxGeometry x="-360" y="184.1" width="90" height="90" as="geometry" />
+          <mxGeometry x="-305" y="221.54999999999998" width="90" height="90" as="geometry" />
         </mxCell>
         <mxCell id="bziAgnSBWIQfF0Atd982-820" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#505050;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.users.csv_file;" vertex="1" parent="1">
-          <mxGeometry x="-290" y="242.19" width="100" height="88.81" as="geometry" />
+          <mxGeometry x="-235" y="279.64" width="100" height="88.81" as="geometry" />
         </mxCell>
         <mxCell id="bziAgnSBWIQfF0Atd982-822" value="" style="shape=image;imageAspect=0;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;image=data:image/png,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;" vertex="1" parent="1">
           <mxGeometry x="439.80000000000007" y="481.78999999999996" width="113.08" height="45.81" as="geometry" />
